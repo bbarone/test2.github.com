@@ -1,5 +1,6 @@
-safe: true
-source: /
-destination: /
-lsi: false
+auto: false
+server: true
+permalink: /docs/:title.html
 pygments: true
+gauges_id: 503c5af6613f5d0f19000027
+paginate: 1
