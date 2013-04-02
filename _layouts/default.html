@@ -4,22 +4,24 @@
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Ben's Website  </title>
   <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/grid.css" />
   <link href='http://fonts.googleapis.com/css?family=Wire+One|Raleway:400,900,800,700,600,500,300,200,100' rel='stylesheet' type='text/css'>
 </head>
- <body>
- 
-	<nav>
-		<div>
-			<h1>Benne Smells</h1>
-		</div>
-    </nav>
-	
 
-    {{ content }}
- 
-    <footer>
-      <p>@copy; Ben Barone-Nugent 2013 | All Rights Reserved. </p>
-    </footer>
- 
+<body>
+
+<div class = "container">
+	<div class = "row">
+		<div class = "fourcol">
+			<div id = "heading">
+			<h1><span>Touche Bitches</span> <span id = "hide">is the gaming blog for people who don't have time for gaming blogs.</span></h1>
+			</div>
+		</div>
+		<div class = "eightcol last">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
 </body>
 </html>
