@@ -1,0 +1,176 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+}
+
+.onecol, .topnav, .cover, .article1, .article2, .article3, .footer  {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .topnav {
+	background-color:#2A2A2A;
+	float:none;
+	height:110px;
+	width:100%;
+	padding-left:9000px;
+	margin-left:-9000px;
+	padding-right:9000px;
+	margin-right:-9000px;
+}
+
+.row .cover {
+	float:none;
+	width:auto;
+}
+
+.row .article1 {
+	width: 30%;
+}
+
+.row .article2 {
+	width: 30%;
+}
+
+.row .article3 {
+	width: 30%;
+}
+
+.row .footer {
+	border-top-color:#D3D3D3;
+	border-top-style:solid;
+	border-top-width:1px;
+	clear:both;
+	float:none;
+	font-family:Trebuchet MS, Futura, sans-serif;
+	height:110px;
+	padding-top:10px;
+	width:100%;
+	color:#D3D3D3;
+	text-align: center;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+	.row, body, .container {
+	width: auto;
+	min-width: 0;
+
+	}
+	
+	.row .topnav, .row .cover {
+	width: 100%;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+	.row .article1, .row .article2, .row .article3 {
+	width: 65%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: none;
+	}
+	
+	.topnav {
+	height: 10%;
+	margin: 0 auto;
+	}
+	
+	#heading {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	text-align: center;
+	margin: 0 auto;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 0.8em;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .topnav, .row .cover, .row .article1, .row .article2, .row .article3, .row .footer {
+	width: 100%;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+	.topnav {
+	height: 100px;
+	width: 100%;
+	}
+	
+	#heading {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+	line-height: 2em;
+	}
+	
+	#sub { 
+	display: none;
+	}
+}

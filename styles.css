@@ -1,131 +1,103 @@
-* {
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+﻿html {
+	overflow-x: hidden;
 }
 
-body {
-	width: 1024px;
-	margin: 0 auto;
-	background-image: url('/img/dust.png');
-	background-repeat: repeat;
+html, body, .nav, .row, .container, .fourcol, .eightcol {
+  -webkit-font-smoothing:antialiased;
+  height:100%;
 }
 
-nav {
-	height: 75px;
-	width: 100%;
-	background-color: #2a2a2a;
-	padding: 0px;
-	margin-top: -22px;
-	padding-left: 1000px;
-	margin-left: -1000px;
-	padding-right: 1000px;
-	margin-right: -1000px;
+#heading {
+  padding-top:30px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-h1 { 
-	font-family: 'Futura', 'Raleway', sans-serif;
-	color: white;
-	margin-left:auto;
-	margin-right:auto;
-	font-weight: 800;
-	text-align: center;
-	font-size: 27px;
-	padding-top: 20px;
+h1 {
+  color:white;
+  font-family:Futura, Raleway, sans-serif;
+  font-size:2em;
+  font-weight:800;
 }
 
-
-#cover {
-	padding-top: 30px;
+#sub {
+  font-weight:400;
+  font-size: 1.5em;
 }
 
-.line {
-	width: 90px;
-	background-color: #d3d3d3;
-	height: 1.5px;
-	margin: 0 auto;
-	margin-top: -15px;
-}
+#icon {
+	display: inline-block;
+	float: left;
+	padding-bottom: 10px;
+	}
 
-h2 { 
-	font-family: 'Wire One', sans-serif;
-	color: #3bc797;
-	font-size: 9em;
-	font-weight: 500;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 40px;
-}
-
-h3 {
-	font-family: Trebuchet MS, Futura, sans-serif;
-	color: #3bc797;
-	font-size: 25px;
-	font-weight: 500;
-	text-align: center;
-	margin: 0;
-}
-
-h4 {
-	font-family: Trebuchet MS, Futura, sans-serif;
-	font-size: 19px;
-	font-weight: 600;
-	font-style: italic;
-	color: #4e4e4e;
-	text-align: center;
-}
-
-h5 {
-	font-family: Trebuchet MS, Futura, sans-serif;
-	font-size: 17px;
-	font-weight: 100;
-	color: #c2c2c2;
-	text-align: center;
-	margin-top: 3px;
-	margin-bottom: 22px;
-	font-style: italic;
-}
-
-.article {
-	font-family: Georgia, Times, serif;
-	color: #4e4e4e;
-	font-size: 14px;
-	line-height: 22px;
-	text-align: center;
-}
-
-br {
-	margin: 8px;
+#front {
+  padding-bottom:30px;
+  width:100%;
 }
 
 #issue {
-  width: 1024px;
+  padding-top:50px;
 }
 
-#first_article {
-  float: left;
-  width: 311px;
-  padding-left: 5.5px;
-  padding-right: 40px;
+.line {
+background-color:#D3D3D3;
+  height:1px;
+  margin:0 auto;
+  width:90px;
+  margin-top:6px;
+  margin-bottom:6px;
 }
 
-#second_article  {
-  float: left;
-  width: 311px;
-  padding-right: 40px;
+h2 {
+  color:#3BC797;
+  font-family:'Wire One', sans-serif;
+  font-size:6em;
+  font-weight:500;
+  margin-bottom:40px;
+  margin-top:15px;
+  text-align:center;
 }
 
-#third_article  {
-  float: left;
-  width: 311px;
-  padding-right: 5.5px;
+h3 {
+  color:#3BC797;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:25px;
+  font-weight:500;
+  margin:0;
+  text-align:center;
 }
 
-#clear {
-  clear: left;
+h4 {
+  color:#4E4E4E;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:19px;
+  font-style:italic;
+  font-weight:600;
+  text-align:center;
 }
 
- 
-footer {
-  font-size: 0.65em;
-  text-align: center;
+h5 {
+  color:#C2C2C2;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:17px;
+  font-style:italic;
+  font-weight:100;
+  margin-bottom:22px;
+  margin-top:3px;
+  text-align:center;
+}
+
+.article {
+  color:#4E4E4E;
+  font-family:Georgia, Times, serif;
+  font-size:14px;
+  line-height:22px;
+  text-align:left;
+  padding-top:20px;
+  padding-bottom:40px;
+}
+
+.para {
+  margin-top:1em;
 }
