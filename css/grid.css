@@ -7,6 +7,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 /* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
 /* ==================================================================================================================== */
 
+html {
+background-image:url('/img/tiny_grid.png');
+background-repeat:repeat;
+}
+
 .container {
 padding-left: 20px;
 padding-right: 20px;
@@ -110,57 +115,65 @@ img {
 	}
 
 	h1 {
-	color:#2A2A2A;
-	font-family:Futura, Raleway, sans-serif;
-	font-size:16em;
-	font-weight:800;
+	color:#4E4E4E;
+	font-family:'PT Serif', serif;
+	font-size:10em;
+	font-weight:300;
+	font-style:italic;
 	line-height: 0.8em;
 	padding-top:150px;
 	padding-bottom:50px;
 	}	
 	
+	.h1top {
+	font-family:'PT Sans', sans-serif;
+	font-weight:600;
+	font-style:normal;
+	}
+	
 	h2 {
-	color:#3BC797;
-	font-family:'Wire One', sans-serif;
-	font-size:14em;
-	font-weight:500;
+	color:#4E4E4E;
+	font-family:'PT Sans', sans-serif;
+	font-size:6em;
+	font-weight:800;
 	margin-bottom:40px;
 	margin-top:50px;
 	text-align:center;
 	}
 	
 	h3 {
-	color:#3BC797;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:5em;
-	font-weight:500;
+	color:#4E4E4E;
+	font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+	font-size:3em;
+	font-weight:800;
+	line-height:2em;
 	margin:0;
 	text-align:center;
 	}
 
-	h4 {
-	color:#4E4E4E;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:3em;
-	font-style:italic;
-	font-weight:600;
-	text-align:center;
-	}
+h4 {
+  color:#4E4E4E;
+  font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+  font-size:2em;
+  font-style:italic;
+  font-weight:600;
+  text-align:center;
+}
 
-	h5 {
-	color:#C2C2C2;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:3em;
-	font-style:italic;
-	font-weight:100;
-	margin-bottom:22px;
-	margin-top:3px;
-	text-align:center;
-	}
+h5 {
+  color:#FF864C;
+  font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+  font-size:3em;
+  font-style:italic;
+  font-weight:100;
+  margin-bottom:22px;
+  margin-top:3px;
+  text-align:center;
+}
 	
 	.article {
 	color:#4E4E4E;
-	font-family:Georgia, Times, serif;
+  font-family: PT Serif, Georgia, Times, serif;
 	font-size:3em;
 	line-height:1.5em;
 	text-align:left;
@@ -171,7 +184,7 @@ img {
 	
 	}
 
-@media screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 1023px) {
 
 .row, body, .container {
 	width: 100%;
@@ -192,53 +205,61 @@ img {
 	}
 
 	h1 {
-	color:#2A2A2A;
-	font-family:Futura, Raleway, sans-serif;
-	font-size:12em;
-	font-weight:800;
+	color:#4E4E4E;
+	font-family:'PT Serif', serif;
+	font-size:10em;
+	font-weight:300;
+	font-style:italic;
 	line-height: 0.8em;
 	padding-top:10px;
 	padding-bottom:50px;
 	}	
 	
+	.h1top {
+	font-family:'PT Sans', sans-serif;
+	font-weight:600;
+	font-style:normal;
+	}
+	
 	h2 {
-	color:#3BC797;
-	font-family:'Wire One', sans-serif;
-	font-size:14em;
-	font-weight:500;
+	color:#4E4E4E;
+	font-family:'PT Sans', sans-serif;
+	font-size:6em;
+	font-weight:800;
 	margin-bottom:40px;
 	margin-top:50px;
 	text-align:center;
 	}
 	
 	h3 {
-	color:#3BC797;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:5em;
-	font-weight:500;
+	color:#4E4E4E;
+	font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+	font-size:3em;
+	font-weight:800;
+	line-height:2em;
 	margin:0;
 	text-align:center;
 	}
 
-	h4 {
-	color:#4E4E4E;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:3em;
-	font-style:italic;
-	font-weight:600;
-	text-align:center;
-	}
+h4 {
+  color:#4E4E4E;
+  font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+  font-size:2em;
+  font-style:italic;
+  font-weight:600;
+  text-align:center;
+}
 
-	h5 {
-	color:#C2C2C2;
-	font-family:'Trebuchet MS', Futura, sans-serif;
-	font-size:3em;
-	font-style:italic;
-	font-weight:100;
-	margin-bottom:22px;
-	margin-top:3px;
-	text-align:center;
-	}
+h5 {
+  color:#FF864C;
+  font-family:'PT Sans', 'Trebuchet MS', Futura, sans-serif;
+  font-size:3em;
+  font-style:italic;
+  font-weight:100;
+  margin-bottom:22px;
+  margin-top:3px;
+  text-align:center;
+}
 	
 	.article {
 	color:#4E4E4E;
