@@ -114,6 +114,7 @@ img {
 	font-family:Futura, Raleway, sans-serif;
 	font-size:16em;
 	font-weight:800;
+	line-height: 0.8em;
 	}	
 	
 	h2 {
@@ -126,14 +127,44 @@ img {
 	text-align:center;
 	}
 	
+	h3 {
+	color:#3BC797;
+	font-family:'Trebuchet MS', Futura, sans-serif;
+	font-size:5em;
+	font-weight:500;
+	margin:0;
+	text-align:center;
+	}
+
+	h4 {
+	color:#4E4E4E;
+	font-family:'Trebuchet MS', Futura, sans-serif;
+	font-size:3em;
+	font-style:italic;
+	font-weight:600;
+	text-align:center;
+	}
+
+	h5 {
+	color:#C2C2C2;
+	font-family:'Trebuchet MS', Futura, sans-serif;
+	font-size:3em;
+	font-style:italic;
+	font-weight:100;
+	margin-bottom:22px;
+	margin-top:3px;
+	text-align:center;
+	}
+	
 	.article {
 	color:#4E4E4E;
 	font-family:Georgia, Times, serif;
-	font-size:2.5em;
+	font-size:3em;
 	line-height:1.5em;
 	text-align:left;
-	padding-top:20px;
-	padding-bottom:40px;
+	padding-bottom:120px;
+	margin-left:20px;
+	margin-right:20px;
 }
 	
 	}
