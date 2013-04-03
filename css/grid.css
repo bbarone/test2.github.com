@@ -83,11 +83,6 @@ img {
 /* Smaller screens */
 
 @media only screen and (max-width: 1023px) {
-
-	body {
-	font-size: 0.8em;
-	line-height: 1.5em;
-	}
 	
 	.article {
 	font-size:3em;
@@ -110,22 +105,17 @@ img {
 	.row, body, .container {
 	width: 100%;
 	min-width: 0;
-	margin: 0 auto;
 	}
 	
 	.row .cover {
 	width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
 	}
 	
 	.row .article1, .row .article2, .row .article3 {
 	width: 85%;
 	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
 	}
 	
 	.row .topnav {
@@ -141,8 +131,6 @@ img {
 	#heading {
 	font-size:3em;
 	margin:0 auto;
-	padding-left:20px;
-	padding-right:20px;
 	padding-top:50px;
 	text-align:center;
 }
