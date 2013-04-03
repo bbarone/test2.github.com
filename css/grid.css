@@ -14,7 +14,7 @@ padding-right: 20px;
 
 .row {
 width: 100%;
-max-width: 1140px;
+max-width: 1040px;
 min-width: 755px;
 margin: 0 auto;
 overflow: hidden;
@@ -92,11 +92,34 @@ img {
 
 @media only screen and (max-width: 1023px) {
 
-	body {
-	font-size: 0.8em;
-	line-height: 1.5em;
+.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	}
 
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+	.article {
+	color:#4E4E4E;
+	font-family:Georgia, Times, serif;
+	font-size:2.5em;
+	line-height:1.5em;
+	text-align:left;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+	
 	}
 
 
