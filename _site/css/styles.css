@@ -1,0 +1,103 @@
+﻿html {
+	overflow-x: hidden;
+}
+
+html, body, .nav, .row, .container, .fourcol, .eightcol {
+  -webkit-font-smoothing:antialiased;
+  height:100%;
+}
+
+#heading {
+  padding-top:30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color:white;
+  font-family:Futura, Raleway, sans-serif;
+  font-size:2em;
+  font-weight:800;
+}
+
+#sub {
+  font-weight:400;
+  font-size: 1.5em;
+}
+
+#icon {
+	display: inline-block;
+	float: left;
+	padding-bottom: 10px;
+	}
+
+#front {
+  padding-bottom:30px;
+  width:100%;
+}
+
+#issue {
+  padding-top:50px;
+}
+
+.line {
+background-color:#D3D3D3;
+  height:1px;
+  margin:0 auto;
+  width:90px;
+  margin-top:6px;
+  margin-bottom:6px;
+}
+
+h2 {
+  color:#3BC797;
+  font-family:'Wire One', sans-serif;
+  font-size:6em;
+  font-weight:500;
+  margin-bottom:40px;
+  margin-top:15px;
+  text-align:center;
+}
+
+h3 {
+  color:#3BC797;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:25px;
+  font-weight:500;
+  margin:0;
+  text-align:center;
+}
+
+h4 {
+  color:#4E4E4E;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:19px;
+  font-style:italic;
+  font-weight:600;
+  text-align:center;
+}
+
+h5 {
+  color:#C2C2C2;
+  font-family:'Trebuchet MS', Futura, sans-serif;
+  font-size:17px;
+  font-style:italic;
+  font-weight:100;
+  margin-bottom:22px;
+  margin-top:3px;
+  text-align:center;
+}
+
+.article {
+  color:#4E4E4E;
+  font-family:Georgia, Times, serif;
+  font-size:14px;
+  line-height:22px;
+  text-align:left;
+  padding-top:20px;
+  padding-bottom:40px;
+}
+
+.para {
+  margin-top:1em;
+}
