@@ -90,7 +90,7 @@ img {
 	}
 	
 	.article {
-	font-size:2.5em;
+	font-size:3em;
 	line-height:1.5em;
 	}
 	
@@ -115,7 +115,6 @@ img {
 	
 	.row .cover {
 	width: 100%;
-	float: none;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding-left: 20px;
@@ -127,11 +126,9 @@ img {
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	float: none;
 	}
 	
 	.row .topnav {
-	float:none;
 	height:150px;
 	margin:0 auto;
 	padding-left:200px;
