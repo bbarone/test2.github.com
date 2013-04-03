@@ -7,7 +7,7 @@ title: Portfolio
 
 	{% for post in paginator.posts %}
 	
-	<div id = "cover">
+	<div class = "cover" id = "front">
 		
 		<h4>{{ post.date | date: "%d %B %Y" }}</h4>
 		
@@ -24,7 +24,7 @@ title: Portfolio
   {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
+<div class="footer">
   {% if paginator.previous_page %}
     <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
   {% else %}
