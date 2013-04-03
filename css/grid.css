@@ -115,6 +115,8 @@ img {
 	font-size:16em;
 	font-weight:800;
 	line-height: 0.8em;
+	padding-top:120px;
+	padding-bottom:50px;
 	}	
 	
 	h2 {
@@ -123,7 +125,7 @@ img {
 	font-size:14em;
 	font-weight:500;
 	margin-bottom:40px;
-	margin-top:15px;
+	margin-top:50px;
 	text-align:center;
 	}
 	
