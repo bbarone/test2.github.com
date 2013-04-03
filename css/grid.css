@@ -90,8 +90,8 @@ img {
 	}
 	
 	.article {
-	font-size:2em;
-	line-height:2.5em;
+	font-size:2.5em;
+	line-height:1.5em;
 	}
 	
 	.line {
@@ -99,7 +99,7 @@ img {
 	}
 	
 	h2 {
-	font-size: 10em;
+	font-size: 14em;
 	line-height: 1em;
 	}
 	
@@ -132,12 +132,13 @@ img {
 	
 	.row .topnav {
 	float:none;
-	height:10%;
+	height:300px;
 	margin:0 auto;
 	padding-left:200px;
-	padding-right:20px;
+	padding-right:200px;
 	width:100%;
 	margin-left:-200px;
+	margin-right:-200px;
 	}
 	
 	#heading {
