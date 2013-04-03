@@ -17,7 +17,6 @@ width: 100%;
 max-width: 1040px;
 min-width: 755px;
 margin: 0 auto;
-overflow: hidden;
 }
 
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
@@ -110,6 +109,23 @@ img {
 	padding-right: 20px;
 	}
 
+	h1 {
+	color:#2A2A2A;
+	font-family:Futura, Raleway, sans-serif;
+	font-size:16em;
+	font-weight:800;
+	}	
+	
+	h2 {
+	color:#3BC797;
+	font-family:'Wire One', sans-serif;
+	font-size:14em;
+	font-weight:500;
+	margin-bottom:40px;
+	margin-top:15px;
+	text-align:center;
+	}
+	
 	.article {
 	color:#4E4E4E;
 	font-family:Georgia, Times, serif;
