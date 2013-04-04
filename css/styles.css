@@ -13,6 +13,14 @@ html, body, .nav, .row, .container, .fourcol, .eightcol {
   margin: 0 auto;
 }
 
+#footer_copy {
+  color:#4E4E4E;
+  font-family:'PT Serif', serif;
+  font-size:0.8em;
+  font-style:normal;
+  text-align:center;
+}
+
 h1 {
   color:#4E4E4E;
   font-family:'PT Serif', serif;
@@ -76,9 +84,15 @@ h5 {
   text-align:center;
 }
 
+a {
+	color: #142914;
+	text-decoration:underline;
+}
+
 #sub {
   font-weight:400;
   font-size: 1.5em;
+  
 }
 
 #icon {
@@ -97,12 +111,12 @@ h5 {
 }
 
 .line {
-background-color:#D3D3D3;
-  height:1px;
-  margin:0 auto;
-  width:90px;
-  margin-top:6px;
-  margin-bottom:6px;
+	background-color:#D3D3D3;
+	height:1px;
+	margin:0 auto;
+	width:90px;
+	margin-top:6px;
+	margin-bottom:6px;
 }
 
 .break {
