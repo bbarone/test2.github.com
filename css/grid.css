@@ -117,7 +117,7 @@ img {
 	h1 {
 	color:#4E4E4E;
 	font-family:'PT Serif', serif;
-	font-size:10em;
+	font-size:14em;
 	font-weight:300;
 	font-style:italic;
 	line-height: 0.8em;
@@ -130,6 +130,13 @@ img {
 	font-weight:600;
 	font-style:normal;
 	}
+	
+	.h1sub {
+  color:#4E4E4E;
+  font-family:'PT Sans', Futura, sans-serif;
+  font-size:3em;
+  font-weight:200;
+ }
 	
 	h2 {
 	color:#4E4E4E;
@@ -207,7 +214,7 @@ h5 {
 	h1 {
 	color:#4E4E4E;
 	font-family:'PT Serif', serif;
-	font-size:10em;
+	font-size:14em;
 	font-weight:300;
 	font-style:italic;
 	line-height: 0.8em;
@@ -220,6 +227,13 @@ h5 {
 	font-weight:600;
 	font-style:normal;
 	}
+		
+	.h1sub {
+  color:#4E4E4E;
+  font-family:'PT Sans', Futura, sans-serif;
+  font-size:3em;
+  font-weight:200;
+ }
 	
 	h2 {
 	color:#4E4E4E;
