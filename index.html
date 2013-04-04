@@ -9,7 +9,7 @@ title: Portfolio
 	
 	<div class = "cover" id = "front">
 		
-		<h4>{{ post.date | date: "%d %B %Y" }}</h4>
+		<h4>{{ post.issue }}, {{ post.date | date: "%d %B %Y" }}</h4>
 		
 		<div class = "line"></div>
 		
@@ -19,21 +19,12 @@ title: Portfolio
 	
 	{{ post.content }}
 
+	
+	
 </div>
  
   {% endfor %}
 
-<!-- Pagination links -->
 <div class="footer">
-  {% if paginator.previous_page %}
-    <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="next ">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+	<h5 id = "footer_copy">A project by <a href="http://benbn.me/">Ben Barone-Nugent</a>. Opinions are my own yada yada. <a href="mailto:ben.baronenugent@gmail.com">Email me</a> with any thoughts / queries / submissions / legal threats. <a href="/about/index.html">Find out more about this project</a>.</h5>
 </div>
