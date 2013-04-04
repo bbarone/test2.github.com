@@ -83,6 +83,14 @@ float: left;
 margin-right: 0px;
 }
 
+.footer {
+  clear:both;
+  margin:0 auto;
+  border-top:1px #D3D3D3 solid;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
 img, object, embed {
 max-width: 100%;
 }
